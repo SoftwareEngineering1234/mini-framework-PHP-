@@ -7,5 +7,12 @@ class HomeController extends Controller
     return $this->view('home');
   }
 
-  
+  public function getusers()
+  {
+  	$users = $this->model('User')->index();
+  	return $this->view('users', ['users' => $users]);
+  }
+
 }
+
+
