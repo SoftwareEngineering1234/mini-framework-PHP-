@@ -2,8 +2,8 @@
 
 class HomeController extends Controller
 {
-  public function __construct()
+  public function test()
   {
-    echo "u are home";
+    echo "test";
   }
 }
