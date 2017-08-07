@@ -2,8 +2,12 @@
 
 class HomeController extends Controller
 {
-  public function test()
+  public function test($nama)
   {
-    echo "test";
+    echo $nama;
+  }
+  public function index()
+  {
+    echo 'ini adalah default metode';
   }
 }
