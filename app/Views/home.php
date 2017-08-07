@@ -8,7 +8,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">INI VIEW PUNYA, <?php echo $data['nama']; ?></div>
+                <div class="title">ANDA BERADA DIHOME</div>
             </div>
         </div>
     </body>
